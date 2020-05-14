@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg,#08AEEA 0%,#2AF598 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#calc{
+    width: 320px;
+    height: 520px;
+    background-color: #08AEEA;
+    background-image: linear-gradient(180deg,#08AEEA 0%,#2AF598 100%);
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px 0 rgb(0, 0, 0),0 0px 12px 0 rgb(0, 0, 0);
+}
+
+#result{
+    height: 120px;
+}
+
+#final{
+    /* text-align: right; */
+    height: 60px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.fv{
+    padding-top: 15px;
+    border-radius: 50px;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+#keyboard{
+    height: 400px;
+}
+.operator,.number{
+    width:50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number{
+    background-color: #0093E9;
+    background-image: linear-gradient(0deg,#0093E9 0%,#80D0C7 100%);
+}
+
+.operator,.number{
+    cursor: pointer;
+}
+
+
+.operator:active,.number:active{
+    font-size: 13px;
+}
+
+.operator:focus,.number:focus,.empty:focus{
+    outline:0;
+}
+
+#equal{
+    width: 91%;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg,#FA8BFF 0%,#2BFF 100%);
+}
+
+.operator{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg,#85FFBD 0%,#FFFB7D 100%);
+}
