@@ -1,0 +1,100 @@
+body{
+    background: #c6ffdd;
+    background:linear-gradient(to right,#c6ffdd,#fbd786,#f7797d)
+}
+}
+
+.inp{
+    position: relative;
+}
+.inside{
+    /* position: absolute; */
+    margin-left: 10px;
+    margin-top: 4px;
+    border-radius: 50px;
+    border-width: 0px;
+    /* margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px; */
+}
+
+.todo{
+    height: 500px;
+    width: 360px;
+    margin: 20px auto;
+    padding-top: 10px;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    background: #00d2ff;
+    background:linear-gradient(to right,#3a7bd5,#00d2ff)
+}
+
+#inp,#inp1,#inp2{
+    width: 100%;
+    margin-left: 5%;
+    
+}
+
+input,p{
+    width: 80%;
+    border-radius: 5px;
+    border-width: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background: #ed4264;
+    background:linear-gradient(to right,#ed4264,#ffedbc)
+}
+
+
+
+.add{
+    width: 75%;
+    display: inline-block;
+    border-radius: 5px;
+    border-width: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background: #ed4264;
+    background:linear-gradient(to right,#ed4264,#ffedbc)
+
+}
+
+.ins{
+    margin-left: 3px;
+    margin-top: 4px;
+    border-radius: 50px;
+    border-width: 0px;
+}
+
+.three,.two{
+    margin-bottom: 2px;
+}
+
+.plus{
+    background: #3d7eaa;
+    background:linear-gradient(to top,#3d7eaa,#ffe47a)
+}
+
+.del{
+    background: #16a085;
+    background:linear-gradient(to top,#eb7f26,#4a9deb)  
+}
+
+.check{
+    background: #3d7eaa;
+    background:linear-gradient(to top,#6ad46acc,#e1f5c4)
+}
+.checked{
+    background: #3d7eaa;
+    background:linear-gradient(to top,#068b06fd,#e1eeb4)
+}
+
+button:active{
+    font-size: 15px;
+}
+
+button:focus{
+    outline: 0;
+}
